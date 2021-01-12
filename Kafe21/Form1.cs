@@ -21,7 +21,6 @@ namespace Kafe21
         {
             InitializeComponent();
             VerileriOku();
-            //OrnekVerileriYukle();
             MasalariYukle();
         }
 
