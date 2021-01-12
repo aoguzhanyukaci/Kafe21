@@ -1,0 +1,34 @@
+﻿Urun
+* UrunAd: string
+* BirimFiyat: decimal
+- ToString(): string
+
+SiparisDetay
+* UrunAd: string
+* BirimFiyat: decimal
+* Adet: int
+* TutarTL: string-readonly
+- Tutar(): decimal
+
+SiparisDurum (enum olacak)
+* Aktif:0
+* Odendi:1
+* Iptal:2
+
+Siparis
+* MasaNo: int
+* Durum: SiparisDurum  (enum)
+* OdenenTutar: decimal
+* AcilisZamani: DateTime?
+* KapanisZamani: DataTime?
+* SiparisDetaylari: List<SiparisDetay>
+* ToplamTutarTL: string-readonly
+- ToplamTutar(): decimal
+
+KafeVeri
+* MasaAdet: int
+* Urunler: List<Urun>
+* AktifSiparisler: List<Siparis>
+* GecmisSiparisler: List<Siparis>
+
+
