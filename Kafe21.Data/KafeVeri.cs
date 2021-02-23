@@ -20,7 +20,7 @@ namespace Kafe21.Data
                 .HasRequired(x => x.Urun)
                 .WithMany(x => x.SiparisDetaylar)
                 .HasForeignKey(x => x.UrunId)
-                .WillCascadeOnDelete(false);
+                .WillCascadeOnDelete(false); 
         }
 
         public int MasaAdet { get; set; } = 20;
