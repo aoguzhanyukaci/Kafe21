@@ -46,7 +46,7 @@ namespace Kafe21
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(2);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -75,7 +75,7 @@ namespace Kafe21
             this.dgvSiparisler.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvSiparisler.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvSiparisler.Location = new System.Drawing.Point(2, 24);
-            this.dgvSiparisler.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvSiparisler.Margin = new System.Windows.Forms.Padding(2);
             this.dgvSiparisler.MultiSelect = false;
             this.dgvSiparisler.Name = "dgvSiparisler";
             this.dgvSiparisler.ReadOnly = true;
@@ -106,15 +106,14 @@ namespace Kafe21
             this.dgvSiparisDetaylari.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvSiparisDetaylari.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvSiparisDetaylari.Location = new System.Drawing.Point(2, 26);
-            this.dgvSiparisDetaylari.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvSiparisDetaylari.Margin = new System.Windows.Forms.Padding(2);
             this.dgvSiparisDetaylari.MultiSelect = false;
             this.dgvSiparisDetaylari.Name = "dgvSiparisDetaylari";
             this.dgvSiparisDetaylari.ReadOnly = true;
             this.dgvSiparisDetaylari.RowHeadersVisible = false;
             this.dgvSiparisDetaylari.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvSiparisDetaylari.Size = new System.Drawing.Size(702, 198);
+            this.dgvSiparisDetaylari.Size = new System.Drawing.Size(702, 199);
             this.dgvSiparisDetaylari.TabIndex = 2;
-            this.dgvSiparisDetaylari.SelectionChanged += new System.EventHandler(this.dgvSiparisler_SelectionChanged);
             // 
             // label2
             // 

@@ -21,6 +21,6 @@ namespace Kafe21.Data
 
         }
 
-        public virtual ICollection<SiparisDetay>SiparisDetaylar { get; set; }
+        public virtual ICollection<SiparisDetay> SiparisDetaylar { get; set; } = new HashSet<SiparisDetay> ();
     }
 }
